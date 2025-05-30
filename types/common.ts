@@ -1,13 +1,7 @@
 import Link from "next/link";
 import { ButtonHTMLAttributes, ComponentPropsWithoutRef, HTMLAttributes, InputHTMLAttributes, ReactNode } from "react";
-import { IconPosition, InputSize } from "../constants";
-import { InputVariant } from "../constants";
 import { SnackbarSeverity } from "../store/slices";
-
-export interface Genre {
-  id: number;
-  name: string;
-}
+import { IconPosition, InputSize, InputVariant } from "../constants";
 
 export interface ProductionCompany {
   id: number;

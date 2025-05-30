@@ -1,5 +1,6 @@
 import { Action } from "@reduxjs/toolkit";
-import { Genre, ProductionCompany, SpokenLanguage } from "./common";
+import { ProductionCompany, SpokenLanguage } from "./common";
+import { Genre } from "./movie";
 
 export interface Movie {
   id: number;

@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { Movie } from "./api";
+import { ProductionCompany } from "./common";
 
 export interface MovieGridProps {
   movies: Movie[];
@@ -70,4 +71,21 @@ export interface MovieDetailsMetadataProps {
 
 export interface MovieDetailsPageProps {
   params: Promise<{ id: string }>;
+}
+
+export interface MoviePageLinkProps {
+  url: string | null;
+}
+
+export interface ProductionCompanyCardProps {
+  company: ProductionCompany;
+}
+
+export interface Genre {
+  id: number;
+  name: string;
+}
+
+export interface GenreTagProps {
+  genre: Genre;
 }

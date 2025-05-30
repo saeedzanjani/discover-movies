@@ -1,6 +1,6 @@
 import { memo, FC } from 'react';
-import { MovieGridProps } from '../../types';
 import MovieCard from './MovieCard';
+import { MovieGridProps } from '../../types';
 
 const MovieGrid: FC<MovieGridProps> = ({ movies, isLoading }) => {
   if (isLoading) {

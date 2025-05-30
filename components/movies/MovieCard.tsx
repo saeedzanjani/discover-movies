@@ -1,7 +1,7 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import { memo, FC, useCallback } from "react";
+import { useRouter } from "next/navigation";
 import MovieMetadata from "../shared/movie/MovieMetadata";
 import { MoviePoster } from "../shared/movie";
 import { MovieCardProps } from "../../types";

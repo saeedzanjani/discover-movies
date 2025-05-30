@@ -1,7 +1,7 @@
 import { FC, memo } from 'react';
 import { cn } from '@/utils/cn';
 import { ButtonProps } from '../../../types';
-import { BUTTON_SIZES, BUTTON_VARIANTS, BUTTON_BASE_STYLES } from '../../../constants/ui';
+import { BUTTON_BASE_STYLES, BUTTON_SIZES, BUTTON_VARIANTS } from '../../../constants/ui';
 
 const Button: FC<ButtonProps> = ({
   children,
