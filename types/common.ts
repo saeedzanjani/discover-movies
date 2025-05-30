@@ -42,6 +42,7 @@ export interface LoadingProps {
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "outline";
   size?: "sm" | "md" | "lg";
+  type?: "button" | "submit" | "reset";
 }
 
 export interface InputProps

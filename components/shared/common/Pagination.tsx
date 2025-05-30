@@ -17,6 +17,7 @@ const Pagination: FC<PaginationProps & React.HTMLAttributes<HTMLDivElement>> = (
         onClick={() => onPageChange(Math.max(1, currentPage - 1))}
         disabled={currentPage === 1}
         variant="primary"
+        className="disabled:opacity-50"
         aria-label="Previous page"
       >
         Previous
@@ -28,6 +29,7 @@ const Pagination: FC<PaginationProps & React.HTMLAttributes<HTMLDivElement>> = (
         onClick={() => onPageChange(Math.min(totalPages, currentPage + 1))}
         disabled={currentPage === totalPages}
         variant="primary"
+        className="disabled:opacity-50"
         aria-label="Next page"
       >
         Next

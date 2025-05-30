@@ -122,7 +122,19 @@ src/
 
 ## 🎨 UI/UX Features
 
-- Responsive design for all screen sizes
+### Responsive Design
+- Fully responsive layout that adapts to all screen sizes
+- Mobile-first approach using Tailwind CSS breakpoints
+- Optimized viewing experience on:
+  - Mobile devices (320px and up)
+  - Tablets (768px and up)
+  - Laptops (1024px and up)
+  - Desktop screens (1280px and up)
+- Fluid typography and spacing
+- Responsive grid system for movie cards
+- Adaptive navigation menu
+- Touch-friendly interface for mobile users
+
 - Dark/Light theme support
 - Smooth transitions and animations
 - Loading skeletons for better UX
@@ -133,7 +145,7 @@ src/
 
 - 🎬 Browse movies from the last month
 - 🔍 Search movies by title
-- 📱 Responsive design for all devices
+- 📱 Fully responsive design with mobile-first approach
 - ⚡ Fast loading with local storage caching
 - 🎨 Modern UI with Tailwind CSS
 - 🔄 Real-time pagination
@@ -154,6 +166,7 @@ src/
    - Uses TMDB API's `/discover/movie` endpoint
    - Filters movies from the last month
    - Implements pagination
+   - Responsive grid layout that adapts to screen size
    - Caches results in local storage for 1 hour
 
 2. **Search Functionality**

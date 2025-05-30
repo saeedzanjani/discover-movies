@@ -12,13 +12,14 @@ export const LOADING_SIZE_CLASSES = {
   lg: "h-12 w-12 border-4",
 } as const;
 
+// Button styles
 export const BUTTON_BASE_STYLES =
   "inline-flex items-center justify-center rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50";
 
-export const BUTTON_VARIANTS = {
-  primary: "bg-primary text-white hover:bg-primary/90",
-  secondary: "bg-gray-100 text-gray-900 hover:bg-gray-200",
-  outline: "border border-gray-300 bg-transparent hover:bg-gray-100",
+export const BUTTON_VARIANT_STYLES = {
+  primary: "!bg-primary !text-white",
+  secondary: "!bg-gray-100 !text-gray-900",
+  outline: "!border !border-gray-300 !bg-transparent",
 } as const;
 
 export const BUTTON_SIZES = {
