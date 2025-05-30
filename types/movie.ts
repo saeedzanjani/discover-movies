@@ -67,3 +67,7 @@ export interface MovieDetailsMetadataProps {
   movie: Movie;
   className?: string;
 }
+
+export interface MovieDetailsPageProps {
+  params: Promise<{ id: string }>;
+}
